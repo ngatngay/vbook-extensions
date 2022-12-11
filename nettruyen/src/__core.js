@@ -1,18 +1,28 @@
-const _server = "https://www.nettruyentv.com";
+const _server = "https://www.nettruyenmin.com";
+const _oldServer = [
+    "nettruyen.com",
+    "nettruyenmoi.com",
+    "nettruyenone.com",
+    "nettruyentop.com",
+    "nettruyenvip.com",
+    "nettruyenpro.com",
+    "nettruyengo.com",
+    "nettruyenco.com",
+    "nettruyenme.com",
+    "nettruyenin.com",
+    "nettruyenon.com",
+    "nettruyentv.com"
+];
+
 const _proxyImage = "https://tooltruyen.ngatngay.net/proxy/nettruyen?url="
 
 function _trueServer(url) {
-    url = url.replace("nettruyen.com", "nettruyenmoi.com");
-    url = url.replace("nettruyentop.com", "nettruyenmoi.com");
-    url = url.replace("nettruyenvip.com", "nettruyenmoi.com");
-    url = url.replace("nettruyenpro.com", "nettruyenmoi.com");
-    url = url.replace("nettruyengo.com", "nettruyenmoi.com");
-    url = url.replace("nettruyenmoi.com", "nettruyenone.com");
-    url = url.replace("nettruyenone.com", "nettruyenco.com");
-    url = url.replace("nettruyenco.com", "nettruyenme.com");
-    url = url.replace("nettruyenme.com", "nettruyenin.com");
-    url = url.replace("nettruyenin.com", "nettruyenon.com");
-    url = url.replace("nettruyenon.com", "nettruyentv.com");
+    server = _server.split(".");
+    server = server[server.length - 2] + "." + server[server.length - 1];
+
+    _oldServer.forEach(function (value) {
+        url = url.replace(value, server);
+    });
 
     return url;
 }

@@ -1,6 +1,12 @@
 # Intellij
 .idea/*
 *.iml
+
+# Nodejs
+node_modules/
+package-lock.json
+
+###
 *test.json
 data.json
 history.bak

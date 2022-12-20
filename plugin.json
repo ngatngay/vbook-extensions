@@ -1,1 +1,19 @@
-{"metadata":{"author":"ngatngay","description":"ngatngay vbook extensions"},"data":[{"source":"https://www.nettruyenking.com","name":"ngatngay - Net Truyện","description":"Net Truyện - Đọc truyện tranh","author":"ngatngay","version":3,"type":"comic","locale":"vi_VN","icon":"https://raw.githubusercontent.com/ngatngay/vbook-extensions/master/nettruyen/icon.png","path":"https://raw.githubusercontent.com/ngatngay/vbook-extensions/master/nettruyen/plugin.zip"}]}
+{
+    "metadata": {
+        "author": "ngatngay",
+        "description": "ngatngay vbook extensions"
+    },
+    "data": [
+        {
+            "source": "https:\/\/www.nettruyenking.com",
+            "name": "ngatngay - Net Truy\u1ec7n",
+            "description": "Net Truy\u1ec7n - \u0110\u1ecdc truy\u1ec7n tranh",
+            "author": "ngatngay",
+            "version": 3,
+            "type": "comic",
+            "locale": "vi_VN",
+            "icon": "https:\/\/raw.githubusercontent.com\/ngatngay\/vbook-extensions\/master\/nettruyen\/icon.png",
+            "path": "https:\/\/raw.githubusercontent.com\/ngatngay\/vbook-extensions\/master\/nettruyen\/plugin.zip"
+        }
+    ]
+}
